@@ -35,6 +35,7 @@ public class FrmCongelado extends javax.swing.JFrame {
 
         jLabel4.setText("Temp Congelacion:");
 
+        jButton1.setBackground(new java.awt.Color(102, 255, 204));
         jButton1.setText("Mostrar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -42,7 +43,7 @@ public class FrmCongelado extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(255, 102, 102));
+        jButton2.setBackground(new java.awt.Color(102, 255, 204));
         jButton2.setText("Limpiar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -50,7 +51,7 @@ public class FrmCongelado extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setBackground(new java.awt.Color(153, 0, 255));
+        jButton3.setBackground(new java.awt.Color(255, 51, 51));
         jButton3.setText("Salir");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,11 +87,11 @@ public class FrmCongelado extends javax.swing.JFrame {
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(5, 5, 5))
             .addGroup(layout.createSequentialGroup()
-                .addGap(33, 33, 33)
+                .addGap(120, 120, 120)
                 .addComponent(jButton1)
-                .addGap(42, 42, 42)
+                .addGap(53, 53, 53)
                 .addComponent(jButton2)
-                .addGap(31, 31, 31)
+                .addGap(72, 72, 72)
                 .addComponent(jButton3)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -117,12 +118,12 @@ public class FrmCongelado extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel4))))
-                .addGap(26, 26, 26)
+                .addGap(52, 52, 52)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3))
-                .addContainerGap(111, Short.MAX_VALUE))
+                    .addComponent(jButton3)
+                    .addComponent(jButton2))
+                .addContainerGap(85, Short.MAX_VALUE))
         );
 
         pack();
